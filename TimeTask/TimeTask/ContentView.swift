@@ -8,9 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let columns = [
+        GridItem(.flexible(), spacing: 30),
+        GridItem(.flexible(), spacing: 30)
+    ]
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        // square cards
+        LazyVGrid(columns: columns, spacing: 20) {
+            TimerCard()
+            TimerCard()
+            TimerCard()
+            TimerCard()
+            TimerCard()
+            TimerCard()
+            
+        }
+        .padding(20)
     }
 }
 
