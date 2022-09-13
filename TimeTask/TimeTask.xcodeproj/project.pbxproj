@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A220B13F28D07AE40012062C /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = A220B13E28D07AE40012062C /* Tasks.swift */; };
 		A25EE4B028CFE54B008A6337 /* TimerCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25EE4AF28CFE54B008A6337 /* TimerCard.swift */; };
 		A25EE4B228CFEC1C008A6337 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25EE4B128CFEC1C008A6337 /* Extensions.swift */; };
 		A2D8914128CF503500A4A15B /* TimeTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D8914028CF503500A4A15B /* TimeTaskApp.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A220B13E28D07AE40012062C /* Tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
 		A25EE4AF28CFE54B008A6337 /* TimerCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerCard.swift; sourceTree = "<group>"; };
 		A25EE4B128CFEC1C008A6337 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		A2D8913D28CF503500A4A15B /* TimeTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +38,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A220B13D28D07AC50012062C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A220B13E28D07AE40012062C /* Tasks.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		A2D8913428CF503500A4A15B = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +65,7 @@
 		A2D8913F28CF503500A4A15B /* TimeTask */ = {
 			isa = PBXGroup;
 			children = (
+				A220B13D28D07AC50012062C /* Model */,
 				A2D8914028CF503500A4A15B /* TimeTaskApp.swift */,
 				A2D8914228CF503500A4A15B /* ContentView.swift */,
 				A25EE4AF28CFE54B008A6337 /* TimerCard.swift */,
@@ -145,6 +156,7 @@
 			files = (
 				A2D8914328CF503500A4A15B /* ContentView.swift in Sources */,
 				A25EE4B028CFE54B008A6337 /* TimerCard.swift in Sources */,
+				A220B13F28D07AE40012062C /* Tasks.swift in Sources */,
 				A2D8914128CF503500A4A15B /* TimeTaskApp.swift in Sources */,
 				A25EE4B228CFEC1C008A6337 /* Extensions.swift in Sources */,
 			);
