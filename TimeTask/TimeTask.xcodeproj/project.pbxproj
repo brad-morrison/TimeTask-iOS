@@ -46,6 +46,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		A220B14028D08EA80012062C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A25EE4AF28CFE54B008A6337 /* TimerCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		A2D8913428CF503500A4A15B = {
 			isa = PBXGroup;
 			children = (
@@ -65,13 +73,13 @@
 		A2D8913F28CF503500A4A15B /* TimeTask */ = {
 			isa = PBXGroup;
 			children = (
+				A25EE4B128CFEC1C008A6337 /* Extensions.swift */,
 				A220B13D28D07AC50012062C /* Model */,
+				A220B14028D08EA80012062C /* Components */,
 				A2D8914028CF503500A4A15B /* TimeTaskApp.swift */,
 				A2D8914228CF503500A4A15B /* ContentView.swift */,
-				A25EE4AF28CFE54B008A6337 /* TimerCard.swift */,
 				A2D8914428CF503600A4A15B /* Assets.xcassets */,
 				A2D8914628CF503600A4A15B /* Preview Content */,
-				A25EE4B128CFEC1C008A6337 /* Extensions.swift */,
 			);
 			path = TimeTask;
 			sourceTree = "<group>";
