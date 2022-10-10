@@ -42,6 +42,7 @@ var content: some View {
 
 let columns = [
     GridItem(.flexible(), spacing: 16),
+
     GridItem(.flexible(), spacing: 16)
 ]
 
